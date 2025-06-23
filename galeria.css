@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+.navbar {
+    background-color: #B872FF;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+} 
+
+.img-thumbnail {
+    background-color: transparent;
+    border: none;
+  }
+
+.galeria-img {
+  border: 2px solid #B872FF;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; /* si querés ajustarlo en responsive se puede cambiar con media queries */
+}
+
+/* Para hacerlo más compacto en móvil */
+@media (max-width: 768px) {
+  .galeria-img {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+}
+/* Estilo para los contenedores de imagen dentro del modal */
+.modal-galeria {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+}
+
+/* Márgenes laterales para pantallas chicas */
+@media (max-width: 768px) {
+  .modal-galeria {
+    margin: 0 20px;
+  }
+}
+
+.modal-galeria img {
+  width: 100%;
+  height: auto;
+  
+  border-radius: 10px;
+}
+
+.modal-content.modal-galeria {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .modal-dialog {
+    margin: 1rem;
+  }
+}
+
+
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 2px;
+        background-color: #e193ef;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+} 
+
+

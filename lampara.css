@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+.navbar {
+    background-color: #B872FF;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+} 
+
+.img-thumbnail {
+    background-color: transparent;
+    border: none;
+  }
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.descripcion {
+    text-align: center;
+    margin: 30px auto 0;
+    width: 100%;
+    max-width: 1158px;
+    padding: 20px;
+}
+
+.descripcion h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.descripcion h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.descripcion li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.descripcion ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.lampara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; /* Espacio superior para que no quede pegado */
+    margin-bottom: 40px; /* Espacio inferior para no superponerse a otros elementos */
+}
+
+.lampara img {
+    width: 100%;
+    max-width: 400px; /* Tamaño máximo, se adapta en pantallas chicas */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+/* Estilo para la franja de color detrás de las características */
+.caracteristicas {
+    background-color: #e193ef; /* Color de la franja */
+    padding: 20px;
+    border-radius: 8px; /* Opcional: para bordes redondeados */
+    margin-bottom: 20px; /* Espacio debajo de la franja */
+}
+
+.caracteristicas ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    padding: 0;
+    margin: 0;
+}
+#mi-modal-1 .modal-content {
+    background-color: #ffdde1;
+    /* Cambiar a tu color deseado */
+}
+/* Estilo para el botón con la clase personalizada */
+.btn-custom {
+    border-color: #B872FF; /* Color del borde */
+    color: #ffffff; /* Color del texto */
+    background-color: transparent; /* Fondo transparente inicialmente */
+}
+
+/* Estilo para el botón al pasar el cursor */
+.btn-custom:hover {
+    background-color: #e193ef; /* Color de fondo al pasar el cursor */
+    border-color: #e193ef; /* Color del borde al pasar el cursor */
+}
+
+/* Estilo para botones con borde (outline) */
+.btn-custom-outline {
+    border-color: #B872FF; /* Color del borde */
+    color: #ffffff; /* Color del texto */
+    background-color: transparent; /* Fondo transparente inicialmente */
+}
+
+/* Estilo para botones con fondo (success) */
+.btn-custom-success {
+    border-color: #B872FF; /* Color del borde */
+    color: #ffffff; /* Color del texto */
+    background-color: #B872FF; /* Color de fondo inicial */
+}
+
+/* Estilo para botones al pasar el cursor */
+.btn-custom-outline:hover {
+    background-color: #e193ef; /* Color de fondo al pasar el cursor */
+    border-color: #e193ef; /* Color del borde al pasar el cursor */
+}
+
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 991px) {
+    .nav-link::before {
+        display: none; /* Ocultar el subrayado en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand,
+    .navbar-toggler {
+        font-size: 18px;
+    }
+
+    .descripcion h1 {
+        font-size: 24px;
+    }
+
+    .descripcion h3 {
+        font-size: 20px;
+    }
+
+    .descripcion li {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .descripcion h1 {
+        font-size: 20px;
+    }
+
+    .descripcion h3 {
+        font-size: 18px;
+    }
+
+    .descripcion li {
+        font-size: 18px;
+    }
+}

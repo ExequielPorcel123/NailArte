@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+
+.navbar {
+    background-color:#B872FF;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+}
+.img-thumbnail {
+    background-color: transparent;
+    border: none;
+  }
+.lampara {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.text-center.text-white {
+    padding-top: 60px;
+}
+
+.col{
+    margin-top: 1px;
+}
+
+
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 2px;
+        background-color: #e193ef;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+} 
+
+.text-center.pt-2 {
+    font-family: Poppins;
+}
+
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-group a {
+    text-decoration: none;
+}
+
+.btn.btn-outline-success {
+    margin: 10px;
+}
+@media (max-width: 576px) {
+    /* Estilos para dispositivos extra pequeños */
+    body {
+        margin: 0 !important;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Estilos para dispositivos pequeños y medianos */
+    body {
+        margin: 0 !important;
+    }
+}
+
+
+.btn-custom {
+    border-color: #B872FF; 
+    color: #ffffff; 
+    background-color: transparent; /
+  }
+  
+ 
+  .btn-custom:hover {
+    background-color: #e193ef; 
+    border-color: #e193ef;
+  }
+  
+ 
+.btn-custom-outline {
+    border-color: #B872FF; 
+    color: #ffffff; 
+    background-color: transparent; 
+  }
+  
+
+  /* Estilo para la tarjeta con margen */
+.card {
+    background-color: #CA9CF8;
+    margin: 50px;
+    border: 3px solid #B872FF; 
+    border-radius: 10px; 
+  }
+  
+
+  
