@@ -73,7 +73,7 @@ body {
 .section-title {
   font-size: 32px;
   font-family: Poppins, sans-serif;
-  color: #dddcdc;
+  color: #212529;
   margin: 20px 0;
   text-align: center;
 }
@@ -87,13 +87,22 @@ body {
 }
 
 
-.section-text,
+.section-text{
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  margin: 10px auto;
+  text-align: center;
+  color: #212529;
+  max-width:  1000px;
+}
+
+
 .section-subtext {
   font-size: 20px;
   font-family: Poppins, sans-serif;
   margin: 10px auto;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   max-width: 1000px;
 }
 
@@ -119,41 +128,3 @@ body {
 .video-frame:hover {
   transform: scale(1.05);
 }
-
-.video-frame iframe {
-  width: 1000px;
-  height: 500px;
-  border: none;
-}
-
-/* --- Footer y otros --- */
-
-.text-center.text-white {
-  padding-top: 60px;
-}
-
-.container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-footer a img {
-  color: white;
-  margin-bottom: 10px;
-}
-
-.footer-title {
-    font-size: 28px;
-    font-weight: 700;
-    font-family: Poppins, sans-serif;
-    margin-bottom: 10px;
-    color: white;
-  }
-  
-  .footer-subtext {
-    font-size: 18px;
-    font-family: Poppins, sans-serif;
-    color: white;
-    margin-bottom: 10px;
-  }
