@@ -109,10 +109,11 @@ body {
 
 .video-wrapper {
   width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  
+  max-width: 1000px; 
+  margin: 20px auto; 
+  padding: 0 16px;   
 }
+
 
 .video-frame {
   position: relative;
