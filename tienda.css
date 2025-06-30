@@ -80,14 +80,14 @@
     margin: 10px;
 }
 @media (max-width: 576px) {
-    /* Estilos para dispositivos extra pequeños */
+    
     body {
         margin: 0 !important;
     }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
-    /* Estilos para dispositivos pequeños y medianos */
+    
     body {
         margin: 0 !important;
     }
@@ -114,7 +114,7 @@
   }
   
 
-  /* Estilo para la tarjeta con margen */
+ 
 .card {
     background-color: #CA9CF8;
     margin: 50px;

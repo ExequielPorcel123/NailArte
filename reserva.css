@@ -47,7 +47,7 @@
         visibility: visible;
     }
 .tarjeta-reserva {
-  min-height: 230px; /* mismo alto para todas */
+  min-height: 230px; 
   display: flex;
   flex-direction: column;
   justify-content: center;

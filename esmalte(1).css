@@ -89,69 +89,69 @@
 }
 
 #carouselExampleRide .carousel-inner img {
-    width: 80%; /* Ajusta el ancho de las imágenes para pantallas grandes */
-    max-width: 500px; /* Limita el ancho máximo de las imágenes */
-    height: auto; /* Mantiene la proporción original de la imagen */
-    display: block; /* Asegura que la imagen se comporte correctamente en el contenedor */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 80%;
+    max-width: 500px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 
-/* Estilo para la franja de color detrás de las características */
+
 .caracteristicas {
-    background-color: #e193ef; /* Color de la franja */
+    background-color: #e193ef; 
     padding: 20px;
-    border-radius: 8px; /* Opcional: para bordes redondeados */
-    margin-bottom: 20px; /* Espacio debajo de la franja */
+    border-radius: 8px; 
+    margin-bottom: 20px; 
 }
 
 .caracteristicas ul {
-    list-style-type: none; /* Eliminar los puntos de la lista */
+    list-style-type: none; 
     padding: 0;
     margin: 0;
 }
 #mi-modal-1 .modal-content {
     background-color: #ffdde1;
-    /* Cambiar a tu color deseado */
+    
 }
-/* Estilo para el botón con la clase personalizada */
+
 .btn-custom {
-    border-color: #B872FF; /* Color del borde */
-    color: #ffffff; /* Color del texto */
-    background-color: transparent; /* Fondo transparente inicialmente */
+    border-color: #B872FF; 
+    color: #ffffff; 
+    background-color: transparent; 
 }
 
-/* Estilo para el botón al pasar el cursor */
+
 .btn-custom:hover {
-    background-color: #e193ef; /* Color de fondo al pasar el cursor */
-    border-color: #e193ef; /* Color del borde al pasar el cursor */
+    background-color: #e193ef; 
+    border-color: #e193ef; 
 }
 
-/* Estilo para botones con borde (outline) */
+
 .btn-custom-outline {
-    border-color: #B872FF; /* Color del borde */
-    color: #ffffff; /* Color del texto */
-    background-color: transparent; /* Fondo transparente inicialmente */
+    border-color: #B872FF; 
+    color: #ffffff; 
+    background-color: transparent; 
 }
 
-/* Estilo para botones con fondo (success) */
+
 .btn-custom-success {
-    border-color: #B872FF; /* Color del borde */
-    color: #ffffff; /* Color del texto */
-    background-color: #B872FF; /* Color de fondo inicial */
+    border-color: #B872FF; 
+    color: #ffffff; 
+    background-color: #B872FF; 
 }
 
-/* Estilo para botones al pasar el cursor */
+
 .btn-custom-outline:hover {
-    background-color: #e193ef; /* Color de fondo al pasar el cursor */
-    border-color: #e193ef; /* Color del borde al pasar el cursor */
+    background-color: #e193ef; 
+    border-color: #e193ef; 
 }
 
 
 
-/* Media Queries para pantallas pequeñas */
+
 @media (max-width: 991px) {
     .nav-link::before {
-        display: none; /* Ocultar el subrayado en pantallas pequeñas */
+        display: none; 
     }
 }
 

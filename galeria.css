@@ -32,17 +32,17 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%; /* si querés ajustarlo en responsive se puede cambiar con media queries */
+  width: 75%; 
 }
 
-/* Para hacerlo más compacto en móvil */
+
 @media (max-width: 768px) {
   .galeria-img {
     width: 90%;
     margin-bottom: 40px;
   }
 }
-/* Estilo para los contenedores de imagen dentro del modal */
+
 .modal-galeria {
   padding: 0;
   background-color: transparent;
@@ -50,7 +50,7 @@
   text-align: center;
 }
 
-/* Márgenes laterales para pantallas chicas */
+
 @media (max-width: 768px) {
   .modal-galeria {
     margin: 0 20px;
