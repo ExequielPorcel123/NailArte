@@ -122,5 +122,11 @@
     border-radius: 10px; 
   }
   
+.card-title {
+  height: 50px; 
+  overflow: hidden;
+ 
+ 
+}
 
   
